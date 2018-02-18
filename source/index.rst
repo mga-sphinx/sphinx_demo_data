@@ -1,4 +1,4 @@
-.. Sphinx ADC theme demo documentation master file, created by
+.. Sphinx theme demo documentation master file, created by
 
 =========
 Demo Docs

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Sphinx ADC Theme Demo documentation build configuration file, created by
+# Sphinx Theme Demo documentation build configuration file, created by
 # sphinx-quickstart on Thu Jun  2 15:00:21 2016.
 #
 # This file is execfile()d with the current directory set to its
@@ -18,6 +18,7 @@
 #
 import os
 import sys
+import time
 # sys.path.insert(0, os.path.abspath('.'))
 sys.path.append(os.path.abspath('.'))
 sys.path.append(os.path.abspath('./test_py_module'))
@@ -59,8 +60,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Sphinx ADC Theme Demo'
-copyright = u'2016, Christophe CHAUVET'
+project = u'Sphinx Theme Demo'
+copyright = u'2016-%s, Christophe CHAUVET' % time.strftime('%Y')
 author = u'Christophe CHAUVET'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -144,7 +145,7 @@ html_theme_path = ["../.."]
 # The name for this set of Sphinx documents.
 # "<project> v<release> documentation" by default.
 #
-# html_title = u'Sphinx ADC Theme Demo v0.1.0'
+# html_title = u'Sphinx Theme Demo v0.1.0'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #
@@ -244,7 +245,7 @@ html_static_path = ['_static']
 # html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'SphinxADCThemeDemodoc'
+htmlhelp_basename = 'SphinxThemeDemodoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -270,7 +271,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'SphinxADCThemeDemo.tex', u'Sphinx ADC Theme Demo Documentation',
+    (master_doc, 'SphinxThemeDemo.tex', u'Sphinx Theme Demo Documentation',
      u'Christophe CHAUVET', 'manual'),
 ]
 
@@ -306,7 +307,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'sphinxadcthemedemo', u'Sphinx ADC Theme Demo Documentation',
+    (master_doc, 'sphinxthemedemo', u'Sphinx Theme Demo Documentation',
      [author], 1)
 ]
 
@@ -321,8 +322,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'SphinxADCThemeDemo', u'Sphinx ADC Theme Demo Documentation',
-     author, 'SphinxADCThemeDemo', 'One line description of project.',
+    (master_doc, 'SphinxThemeDemo', u'Sphinx Theme Demo Documentation',
+     author, 'SphinxThemeDemo', 'One line description of project.',
      'Miscellaneous'),
 ]
 
