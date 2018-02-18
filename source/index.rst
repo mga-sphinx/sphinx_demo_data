@@ -29,6 +29,8 @@ Contents:
 Maaaaath!
 =========
 
+.. index:: formula, equation
+
 This is a test.  Here is an equation:
 :math:`X_{0:5} = (X_0, X_1, X_2, X_3, X_4)`.
 Here is another:
@@ -85,6 +87,8 @@ This example comes from `django-payments module docs`_.
 Code test
 =========
 
+.. index:: code
+
 .. parsed-literal::
 
     # parsed-literal test
@@ -117,6 +121,8 @@ Code test
 Sidebar
 =======
 
+.. index:: sidebar
+
 .. sidebar:: Ch'ien / The Creative
 
     .. image:: static/yi_jing_01_chien.jpg
@@ -131,6 +137,8 @@ The power represented by the hexagram is to be interpreted in a dual sense in te
 
 Code with Sidebar
 =================
+
+.. index:: code, sidebar
 
 .. sidebar:: A code example
 
@@ -212,6 +220,8 @@ Emphasized lines with line numbers
 Citation
 ========
 
+.. index:: citation
+
 Here I am making a citation [1]_, another [2]_ and another [3]_
 
 .. [1] This is the citation I made, let's make this extremely long so that we can tell that it doesn't follow the normal responsive table stuff.
@@ -225,6 +235,8 @@ Here I am making a citation [1]_, another [2]_ and another [3]_
 Images
 ======
 
+.. index:: images
+
 .. figure:: static/yi_jing_01_chien.jpg
 
     This is a caption for a figure.
@@ -233,3 +245,9 @@ Download links
 ==============
 
 :download:`This long long long long long long long long long long long long long long long download link should be blue with icon, and should wrap white-spaces <static/yi_jing_01_chien.jpg>`
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`search`
