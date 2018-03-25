@@ -86,8 +86,8 @@
         <span class="c1">#: Doc comment for instance attribute qux.</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">qux</span> <span class="o">=</span> <span class="mi">3</span>
 
-        <span class="bp">self</span><span class="o">.</span><span class="n">spam</span> <span class="o">=</span> <span class="mi">4</span></div>
-        <span class="sd">&quot;&quot;&quot;Docstring for instance attribute spam.&quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">spam</span> <span class="o">=</span> <span class="mi">4</span>
+        <span class="sd">&quot;&quot;&quot;Docstring for instance attribute spam.&quot;&quot;&quot;</span></div>
 
 <div class="viewcode-block" id="Foo.add"><a class="viewcode-back" href="../../api.html#test_py_module.test.Foo.add">[docs]</a>    <span class="k">def</span> <span class="nf">add</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">val1</span><span class="p">,</span> <span class="n">val2</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Return the added values.</span>
@@ -99,8 +99,8 @@
 <span class="sd">        :rtype: int</span>
 
 <span class="sd">        &quot;&quot;&quot;</span>
-</div>
-        <span class="k">return</span> <span class="n">val1</span> <span class="o">+</span> <span class="n">val2</span>
+
+        <span class="k">return</span> <span class="n">val1</span> <span class="o">+</span> <span class="n">val2</span></div>
 
 <div class="viewcode-block" id="Foo.capitalize"><a class="viewcode-back" href="../../api.html#test_py_module.test.Foo.capitalize">[docs]</a>    <span class="k">def</span> <span class="nf">capitalize</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">myvalue</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;Return a string as uppercase.</span>
@@ -110,8 +110,8 @@
 <span class="sd">        :rtype: string</span>
 
 <span class="sd">        &quot;&quot;&quot;</span>
-</div>
-        <span class="k">return</span> <span class="n">myvalue</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span>
+
+        <span class="k">return</span> <span class="n">myvalue</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span></div>
 
 <div class="viewcode-block" id="Foo.another_function"><a class="viewcode-back" href="../../api.html#test_py_module.test.Foo.another_function">[docs]</a>    <span class="k">def</span> <span class="nf">another_function</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
         <span class="sd">&quot;&quot;&quot;</span>
@@ -136,8 +136,8 @@
 
 <span class="sd">        :raises ValueError: When ``a`` is not an integer.</span>
 
-<span class="sd">        &quot;&quot;&quot;</span></div></div>
-        <span class="k">return</span> <span class="nb">sum</span><span class="p">(</span><span class="n">kwargs</span><span class="o">.</span><span class="n">values</span><span class="p">())</span> <span class="o">/</span> <span class="nb">len</span><span class="p">(</span><span class="n">kwargs</span><span class="p">),</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="nb">sum</span><span class="p">(</span><span class="n">kwargs</span><span class="o">.</span><span class="n">values</span><span class="p">())</span> <span class="o">/</span> <span class="nb">len</span><span class="p">(</span><span class="n">kwargs</span><span class="p">),</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span></div></div>
 </pre></div>
 
           </div>
@@ -173,7 +173,7 @@
       &copy;2016-2018, Christophe CHAUVET.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.7.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.7.2</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
       
     </div>
