@@ -41,7 +41,8 @@ extensions = [
 ]
 
 # Math
-mathjax_path = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+# If you want to load a local version, uncomment mathjax_path
+# mathjax_path = "https://cdn.rawgit.com/mathjax/MathJax/2.7.1/MathJax.js"
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
