@@ -1,11 +1,9 @@
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
     <title>test_py_module &#8212; Sphinx Theme Demo 0.1.0 documentation</title>
     <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
@@ -65,18 +63,14 @@ Here is a link to <a class="reference internal" href="#test_py_module.test.Foo._
 <dt id="test_py_module.test.Foo.__init__">
 <code class="descname">__init__</code><span class="sig-paren">(</span><em>qux</em>, <em>spam=False</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/test_py_module/test.html#Foo.__init__"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#test_py_module.test.Foo.__init__" title="Permalink to this definition">¶</a></dt>
 <dd><p>Start the Foo.</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
-<li><strong>qux</strong> (<em>string</em>) – The first argument to initialize class.</li>
-<li><strong>spam</strong> (<em>bool</em>) – Spam me yes or no…</li>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>qux</strong> (<em>string</em>) – The first argument to initialize class.</p></li>
+<li><p><strong>spam</strong> (<em>bool</em>) – Spam me yes or no…</p></li>
 </ul>
-</td>
-</tr>
-</tbody>
-</table>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="attribute">
@@ -89,54 +83,46 @@ Here is a link to <a class="reference internal" href="#test_py_module.test.Foo._
 <dt id="test_py_module.test.Foo.add">
 <code class="descname">add</code><span class="sig-paren">(</span><em>val1</em>, <em>val2</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/test_py_module/test.html#Foo.add"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#test_py_module.test.Foo.add" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return the added values.</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
-<li><strong>val1</strong> (<em>int</em>) – First number to add.</li>
-<li><strong>val2</strong> (<em>int</em>) – Second number to add.</li>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>val1</strong> (<em>int</em>) – First number to add.</p></li>
+<li><p><strong>val2</strong> (<em>int</em>) – Second number to add.</p></li>
 </ul>
-</td>
-</tr>
-<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">int</p>
-</td>
-</tr>
-</tbody>
-</table>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>int</p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="method">
 <dt id="test_py_module.test.Foo.another_function">
 <code class="descname">another_function</code><span class="sig-paren">(</span><em>a</em>, <em>b</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/test_py_module/test.html#Foo.another_function"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#test_py_module.test.Foo.another_function" title="Permalink to this definition">¶</a></dt>
 <dd><p>Here is another function.</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
-<li><strong>a</strong> (<em>int</em>) – The number of green hats you own.</li>
-<li><strong>b</strong> (<em>int</em>) – The number of non-green hats you own.</li>
-<li><strong>kwargs</strong> (<em>float</em>) – Additional keyword arguments. Each keyword parameter
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>a</strong> (<em>int</em>) – The number of green hats you own.</p></li>
+<li><p><strong>b</strong> (<em>int</em>) – The number of non-green hats you own.</p></li>
+<li><p><strong>kwargs</strong> (<em>float</em>) – Additional keyword arguments. Each keyword parameter
 should specify the name of your favorite cuisine.
 The values should be floats, specifying the mean price
-of your favorite dish in that cooking style.</li>
+of your favorite dish in that cooking style.</p></li>
 </ul>
-</td>
-</tr>
-<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">A 2-tuple.  The first element is the mean price of all dishes
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>A 2-tuple.  The first element is the mean price of all dishes
 across cuisines.  The second element is the total number of
 hats you own: <span class="math notranslate nohighlight">\(a + b\)</span>.</p>
-</td>
-</tr>
-<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first">tuple</p>
-</td>
-</tr>
-<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><p class="first last"><strong>ValueError</strong> – When <code class="docutils literal notranslate"><span class="pre">a</span></code> is not an integer.</p>
-</td>
-</tr>
-</tbody>
-</table>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>tuple</p>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>ValueError</strong> – When <code class="docutils literal notranslate"><span class="pre">a</span></code> is not an integer.</p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="attribute">
@@ -156,16 +142,14 @@ It can have multiple lines.</p>
 <dt id="test_py_module.test.Foo.capitalize">
 <code class="descname">capitalize</code><span class="sig-paren">(</span><em>myvalue</em><span class="sig-paren">)</span><a class="reference internal" href="_modules/test_py_module/test.html#Foo.capitalize"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#test_py_module.test.Foo.capitalize" title="Permalink to this definition">¶</a></dt>
 <dd><p>Return a string as uppercase.</p>
-<table class="docutils field-list" frame="void" rules="none">
-<col class="field-name" />
-<col class="field-body" />
-<tbody valign="top">
-<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>myvalue</strong> (<em>string</em>) – String to change</td>
-</tr>
-<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body">string</td>
-</tr>
-</tbody>
-</table>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>myvalue</strong> (<em>string</em>) – String to change</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>string</p>
+</dd>
+</dl>
 </dd></dl>
 
 <dl class="attribute">
@@ -209,7 +193,7 @@ It can have multiple lines.</p>
 <h3>Navigation</h3>
 <p class="caption"><span class="caption-text">Sweet Docs</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="demo.html">1&nbsp;&nbsp;&nbsp;reStructuredText Demonstration</a></li>
+<li class="toctree-l1"><a class="reference internal" href="demo.html"><span class="sectnum">1</span> reStructuredText Demonstration</a></li>
 <li class="toctree-l1"><a class="reference internal" href="list.html">A list</a></li>
 </ul>
 <ul>
@@ -218,7 +202,7 @@ It can have multiple lines.</p>
 <p class="caption"><span class="caption-text">This is an incredibly long caption for a long menu</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="long.html">Long Sticky Nav</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#"><code class="docutils literal notranslate"><span class="pre">test_py_module</span></code></a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#"><code class="xref py py-mod docutils literal notranslate"><span class="pre">test_py_module</span></code></a></li>
 </ul>
 
 <div class="relations">
@@ -235,8 +219,6 @@ It can have multiple lines.</p>
     <form class="search" action="search.html" method="get">
       <input type="text" name="q" />
       <input type="submit" value="Go" />
-      <input type="hidden" name="check_keywords" value="yes" />
-      <input type="hidden" name="area" value="default" />
     </form>
     </div>
 </div>
@@ -257,7 +239,7 @@ It can have multiple lines.</p>
       &copy;2016-2019, Christophe CHAUVET.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.8.5</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
