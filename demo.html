@@ -418,7 +418,7 @@ own it, and what it is too.</p>
 <div class="section" id="tables">
 <h4><a class="toc-backref" href="#id39"><span class="sectnum">1.1.2.11</span> Tables</a><a class="headerlink" href="#tables" title="Permalink to this headline">¶</a></h4>
 <p>Here’s a grid table followed by a simple table:</p>
-<table class="docutils align-center">
+<table class="docutils align-default">
 <colgroup>
 <col style="width: 43%" />
 <col style="width: 21%" />
@@ -461,7 +461,7 @@ empty: <code class="docutils literal notranslate"><span class="pre">--&gt;</span
 </tr>
 </tbody>
 </table>
-<table class="docutils align-center">
+<table class="docutils align-default">
 <colgroup>
 <col style="width: 31%" />
 <col style="width: 31%" />
@@ -589,11 +589,11 @@ document (a document-wide <a class="reference internal" href="#table-of-contents
 <p>An image directive (also clickable – a hyperlink reference):</p>
 <a class="reference internal image-reference" href="#directives"><img alt="_images/title.png" src="_images/title.png" /></a>
 <p>A figure directive:</p>
-<div class="figure align-center" id="id17">
+<div class="figure align-default" id="id17">
 <img alt="reStructuredText, the markup syntax" src="_images/title.png" />
 <p class="caption"><span class="caption-text">A figure is an image with a caption and/or a legend:</span><a class="headerlink" href="#id17" title="Permalink to this image">¶</a></p>
 <div class="legend">
-<table class="docutils align-center">
+<table class="docutils align-default">
 <colgroup>
 <col style="width: 20%" />
 <col style="width: 80%" />
@@ -799,10 +799,10 @@ section, “Docutils System Messages”:</p>
 </ul>
 </div>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -824,7 +824,7 @@ section, “Docutils System Messages”:</p>
       &copy;2016-2019, Christophe CHAUVET.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

@@ -99,7 +99,7 @@ Here is another:</p>
 </div>
 <div class="section" id="giant-tables">
 <h2>Giant tables<a class="headerlink" href="#giant-tables" title="Permalink to this headline">¶</a></h2>
-<table class="docutils align-center">
+<table class="docutils align-default">
 <colgroup>
 <col style="width: 9%" />
 <col style="width: 9%" />
@@ -191,7 +191,7 @@ However, some projects will manually do it, like so:</p>
 <p>This example comes from <a class="reference external" href="http://django-payments.readthedocs.org/en/latest/modules.html#payments.authorizenet.AuthorizeNetProvider">django-payments module docs</a>.</p>
 <dl class="class">
 <dt id="payments.dotpay.DotpayProvider">
-<em class="property">class </em><code class="descclassname">payments.dotpay.</code><code class="descname">DotpayProvider</code><span class="sig-paren">(</span><em>seller_id</em>, <em>pin</em><span class="optional">[</span>, <em>channel=0</em><span class="optional">[</span>, <em>lock=False</em><span class="optional">]</span>, <em>lang='pl'</em><span class="optional">]</span><span class="sig-paren">)</span><a class="headerlink" href="#payments.dotpay.DotpayProvider" title="Permalink to this definition">¶</a></dt>
+<em class="property">class </em><code class="sig-prename descclassname">payments.dotpay.</code><code class="sig-name descname">DotpayProvider</code><span class="sig-paren">(</span><em class="sig-param">seller_id</em>, <em class="sig-param">pin</em><span class="optional">[</span>, <em class="sig-param">channel=0</em><span class="optional">[</span>, <em class="sig-param">lock=False</em><span class="optional">]</span>, <em class="sig-param">lang='pl'</em><span class="optional">]</span><span class="sig-paren">)</span><a class="headerlink" href="#payments.dotpay.DotpayProvider" title="Permalink to this definition">¶</a></dt>
 <dd><p>This backend implements payments using a popular Polish gateway, <a class="reference external" href="http://www.dotpay.pl">Dotpay.pl</a>.</p>
 <p>Due to API limitations there is no support for transferring purchased items.</p>
 <dl class="field-list simple">
@@ -376,7 +376,7 @@ documentation for it.</p>
 <dt>Every other line in this table will have white text on a white background.</dt><dd><p>This is bad.</p>
 </dd>
 </dl>
-<table class="docutils align-center">
+<table class="docutils align-default">
 <colgroup>
 <col style="width: 100%" />
 </colgroup>
@@ -428,7 +428,7 @@ documentation for it.</p>
 </div>
 <div class="section" id="images">
 <h1>Images<a class="headerlink" href="#images" title="Permalink to this headline">¶</a></h1>
-<div class="figure align-center" id="id8">
+<div class="figure align-default" id="id8">
 <span id="index-5"></span><img alt="_images/yi_jing_01_chien.jpg" src="_images/yi_jing_01_chien.jpg" />
 <p class="caption"><span class="caption-text">This is a caption for a figure.</span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
 </div>
@@ -485,10 +485,10 @@ documentation for it.</p>
 </ul>
 </div>
 <div id="searchbox" style="display: none" role="search">
-  <h3>Quick search</h3>
+  <h3 id="searchlabel">Quick search</h3>
     <div class="searchformwrapper">
     <form class="search" action="search.html" method="get">
-      <input type="text" name="q" />
+      <input type="text" name="q" aria-labelledby="searchlabel" />
       <input type="submit" value="Go" />
     </form>
     </div>
@@ -510,7 +510,7 @@ documentation for it.</p>
       &copy;2016-2019, Christophe CHAUVET.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.0.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.0</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
