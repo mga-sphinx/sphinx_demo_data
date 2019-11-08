@@ -8,7 +8,7 @@ env:
   global:
     - TEST=-v
   matrix:
-    - DOCUTILS=0.14
+    - DOCUTILS=0.15.2
 
 matrix:
   include:
